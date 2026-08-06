@@ -14,6 +14,7 @@
     sprite: &icon-rsi /Textures/Interface/Misc/job_icons.rsi
     state: CargoTechnician
   jobName: job-name-cargotech
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -22,6 +23,7 @@
     sprite: *icon-rsi
     state: ShaftMiner
   jobName: job-name-miningspec # Starlight
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Command
 
@@ -32,6 +34,7 @@
     sprite: *icon-rsi
     state: Captain
   jobName: job-name-captain
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -40,6 +43,7 @@
     sprite: *icon-rsi
     state: ChiefEngineer
   jobName: job-name-ce
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -48,6 +52,7 @@
     sprite: *icon-rsi
     state: ChiefMedicalOfficer
   jobName: job-name-cmo
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -56,6 +61,8 @@
     sprite: *icon-rsi
     state: HeadOfPersonnel
   jobName: job-name-hop
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
+
 
 - type: jobIcon
   parent: JobIcon
@@ -64,6 +71,7 @@
     sprite: *icon-rsi
     state: HeadOfSecurity
   jobName: job-name-hos
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -72,6 +80,7 @@
     sprite: *icon-rsi
     state: ResearchDirector
   jobName: job-name-rd
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -80,6 +89,7 @@
     sprite: *icon-rsi
     state: QuarterMaster
   jobName: job-name-qm
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Engineering
 
@@ -90,6 +100,7 @@
     sprite: *icon-rsi
     state: AtmosphericTechnician
   jobName: job-name-atmostech
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -98,6 +109,7 @@
     sprite: *icon-rsi
     state: StationEngineer
   jobName: job-name-engineer
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -106,6 +118,7 @@
     sprite: *icon-rsi
     state: TechnicalAssistant
   jobName: job-name-technical-assistant
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Medical
 
@@ -116,6 +129,7 @@
     sprite: *icon-rsi
     state: Chemist
   jobName: job-name-chemist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -124,6 +138,7 @@
     sprite: *icon-rsi
     state: Geneticist
   jobName: job-name-geneticist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -132,6 +147,7 @@
     sprite: *icon-rsi
     state: MedicalDoctor
   jobName: job-name-doctor
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -140,6 +156,7 @@
     sprite: *icon-rsi
     state: MedicalIntern
   jobName: job-name-intern
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -148,6 +165,7 @@
     sprite: *icon-rsi
     state: Paramedic
   jobName: job-name-paramedic
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -156,6 +174,7 @@
     sprite: *icon-rsi
     state: Psychologist
   jobName: job-name-psychologist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -164,6 +183,7 @@
     sprite: *icon-rsi
     state: Virologist
   jobName: job-name-virologist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Research
 
@@ -174,6 +194,7 @@
     sprite: *icon-rsi
     state: ResearchAssistant
   jobName: job-name-research-assistant
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -182,6 +203,7 @@
     sprite: *icon-rsi
     state: Roboticist
   jobName: job-name-roboticist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -190,6 +212,7 @@
     sprite: *icon-rsi
     state: Scientist
   jobName: job-name-scientist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Security
 
@@ -200,6 +223,7 @@
     sprite: *icon-rsi
     state: Brigmedic
   jobName: job-name-brigmedic
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -208,6 +232,7 @@
     sprite: *icon-rsi
     state: Detective
   jobName: job-name-detective
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -216,6 +241,7 @@
     sprite: *icon-rsi
     state: SecurityCadet
   jobName: job-name-cadet
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -224,6 +250,7 @@
     sprite: *icon-rsi
     state: SecurityOfficer
   jobName: job-name-security
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -232,6 +259,7 @@
     sprite: *icon-rsi
     state: Warden
   jobName: job-name-warden
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Service
 
@@ -242,6 +270,7 @@
     sprite: *icon-rsi
     state: Bartender
   jobName: job-name-bartender
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -250,6 +279,7 @@
     sprite: *icon-rsi
     state: Botanist
   jobName: job-name-botanist
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -258,6 +288,7 @@
     sprite: *icon-rsi
     state: Boxer
   jobName: job-name-boxer
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -266,6 +297,7 @@
     sprite: *icon-rsi
     state: Chaplain
   jobName: job-name-chaplain
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -274,6 +306,7 @@
     sprite: *icon-rsi
     state: Chef
   jobName: job-name-chef
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -282,6 +315,7 @@
     sprite: *icon-rsi
     state: Janitor
   jobName: job-name-janitor
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -290,6 +324,7 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi # Starlight
     state: LawyerSL # Starlight
   jobName: job-name-lawyer
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -298,6 +333,7 @@
     sprite: *icon-rsi
     state: Librarian
   jobName: job-name-librarian
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -306,6 +342,7 @@
     sprite: *icon-rsi
     state: Reporter
   jobName: job-name-reporter
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -314,6 +351,7 @@
     sprite: *icon-rsi
     state: ServiceWorker
   jobName: job-name-serviceworker
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -322,6 +360,7 @@
     sprite: *icon-rsi
     state: Zookeeper
   jobName: job-name-zookeeper
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Entertainer (like service, but not actually service)
 
@@ -332,6 +371,7 @@
     sprite: *icon-rsi
     state: Clown
   jobName: job-name-clown
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -340,6 +380,7 @@
     sprite: *icon-rsi
     state: Mime
   jobName: job-name-mime
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -348,6 +389,7 @@
     sprite: *icon-rsi
     state: Musician
   jobName: job-name-musician
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 # Passenger aka: Passenger
 #Starlight tidebegone
@@ -358,6 +400,9 @@
     sprite: *icon-rsi
     state: Assistant # Starlight - Passenger -> Asistant
   jobName: job-name-assistant # Starlight - passenger -> assistant
+  tags: # Starlight-edit: Also accessible from the task master digiboard.
+  - JobIconCrew
+  - JobIconAssistantManager
 
 - type: jobIcon
   parent: JobIcon
@@ -366,6 +411,8 @@
     sprite: *icon-rsi
     state: Visitor
   jobName: job-name-visitor
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 # Silicon
 
@@ -376,6 +423,8 @@
     sprite: *icon-rsi
     state: Borg
   jobName: job-name-borg
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an borg HUD icon
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -384,6 +433,8 @@
     sprite: *icon-rsi
     state: StationAi
   jobName: job-name-station-ai
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an AI HUD icon
+  - JobIconCentComm
 
 # Bad guys
 
@@ -394,6 +445,8 @@
     sprite: *icon-rsi
     state: Cluwne
   jobName: job-name-cluwne
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -402,6 +455,8 @@
     sprite: *icon-rsi
     state: Ninja
   jobName: job-name-ninja
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -410,6 +465,8 @@
     sprite: *icon-rsi
     state: Pirate
   jobName: job-name-pirate
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -418,6 +475,7 @@
     sprite: *icon-rsi
     state: Prisoner
   jobName: job-name-prisoner
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -426,6 +484,10 @@
     sprite: *icon-rsi
     state: Syndicate
   jobName: job-name-syndicate
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
+  - JobIconSyndicate
+
 
 - type: jobIcon
   parent: JobIcon
@@ -434,6 +496,10 @@
     sprite: *icon-rsi
     state: SyndicateCommander
   jobName: job-name-syndicate-commander
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
+  - JobIconSyndicate
+
 
 - type: jobIcon
   parent: JobIcon
@@ -442,6 +508,9 @@
     sprite: *icon-rsi
     state: SyndicateCorpsman
   jobName: job-name-syndicate-corpsman
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
+  - JobIconSyndicate
 
 - type: jobIcon
   parent: JobIcon
@@ -450,6 +519,9 @@
     sprite: *icon-rsi
     state: SyndicateOperative
   jobName: job-name-syndicate-operative
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
+  - JobIconSyndicate
 
 - type: jobIcon
   parent: JobIcon
@@ -458,6 +530,8 @@
     sprite: *icon-rsi
     state: Wizard
   jobName: job-name-wizard
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -466,6 +540,8 @@
     sprite: *icon-rsi
     state: Zombie
   jobName: job-name-zombie
+  tags: # Starlight-edit - non admins shouldn't be able to give a crew member an Antag HUD icon
+  - JobIconCentComm
 
 # Admin
 
@@ -476,6 +552,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: CBURN
   jobName: job-name-cburn
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -484,6 +562,8 @@
     sprite: *icon-rsi
     state: DeathSquad
   jobName: job-name-deathsquad
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -492,6 +572,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTLeader
   jobName: job-name-ertleader
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -500,6 +582,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTChaplain
   jobName: job-name-ertchaplain
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -508,6 +592,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTEngineer
   jobName: job-name-ertengineer
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -516,6 +602,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTSecurity
   jobName: job-name-ertsecurity
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -524,6 +612,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTMedical
   jobName: job-name-ertmedic
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -532,6 +622,8 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: ERTJanitor
   jobName: job-name-ertjanitor
+  tags: # Starlight-edit
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -540,6 +632,7 @@
     sprite: /Textures/_Starlight/Interface/Misc/job_icons.rsi #Starlight
     state: NanoTrasenRepresentative # Starlight
   jobName: job-name-ntrep # Starlight, how did this happen???
+  tags: JobIconCrew # Starlight-edit: makes the icon visable on the player accessible ID card computer.
 
 - type: jobIcon
   parent: JobIcon
@@ -590,6 +683,8 @@
     sprite: *icon-rsi
     state: NoId
   jobName: job-name-no-id
+  tags: # Starlight-edit - should not be player accessible
+  - JobIconCentComm
 
 - type: jobIcon
   parent: JobIcon
@@ -598,3 +693,5 @@
     sprite: *icon-rsi
     state: Unknown
   jobName: job-name-unknown
+  tags: # Starlight-edit - should not be player accessible
+  - JobIconCentComm
